@@ -6,3 +6,7 @@ The app is built using Node.js with React and Next interface that allows users t
 <br />
 <br />
 The app is user-friendly with an intuitive user interface.
+
+### Snapshot of the Project:
+![glimpse](https://github.com/prototype47/ChatVault/assets/76837650/232a37cd-0b3a-470a-abe0-dc4f9eff51f9)
+<br />
