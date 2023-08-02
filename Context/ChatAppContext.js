@@ -116,5 +116,5 @@ export const ChatAppProvider = ({children}) => {
             account, userName, friendLists, friendMsg, loading, userLists, error, currentUserName, currentUserAddress }}>
             {children}
         </ChatAppContext.Provider>
-    )
+    );
 }
