@@ -1,4 +1,4 @@
-### ChatVault - A decentralized peer-to-peer Chat Application
+# ChatVault - A decentralized peer-to-peer Chat Application
 
 The app allows users to communicate with each other securely, without the need of a central server or a third-party service.
 <br />
