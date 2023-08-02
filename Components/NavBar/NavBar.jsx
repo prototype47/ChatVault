@@ -99,7 +99,7 @@ const NavBar = () => {
       {openModel && (
         <div className={Style.modelBox}>
           <Model openBox={setOpenModel} title="Welcome to" head="ChatVault" 
-            info="asdifggslfskfbzsffvb,sjfhvjs,d" 
+            info="A decentralized peer-to-peer chat application" 
             smallInfo="Kindly select your name..."
             image={images.hero}
             functionName={createAccount}

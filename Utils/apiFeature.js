@@ -24,7 +24,7 @@ export const connectWallet = async () => {
         const firstAccount = accounts[0];
         return firstAccount;
     } catch (error) {
-        console.log("error");
+        console.log(error);
     }
 };
 
@@ -39,7 +39,7 @@ export const connectingWithContract = async () => {
         const contract = fetchContract(signer);
         return contract;
     } catch (error) {
-        console.log("error");
+        console.log(error);
     }
 };
 
