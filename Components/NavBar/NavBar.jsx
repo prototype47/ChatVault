@@ -96,14 +96,15 @@ const NavBar = () => {
         </div>
       </div>
       {/* MODEL COMPONENT */}
-      {!openModel && (
+      {openModel && (
         <div className={Style.modelBox}>
-          <Model openModel={setOpenModel} title="Welcome to" head="ChatVault" 
+          <Model openBox={setOpenModel} title="Welcome to" head="ChatVault" 
             info="asdifggslfskfbzsffvb,sjfhvjs,d" 
-            smallInfo="Kindly select ypur name..."
-            images={images.hero}
+            smallInfo="Kindly select your name..."
+            image={images.hero}
             functionName={createAccount}
-            />
+            address={account}
+          />
         </div>
       )}
       {error == "" ? "" : <Error error={error} />}
